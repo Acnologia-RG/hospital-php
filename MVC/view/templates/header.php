@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>hospital</title>	
-	<link rel="stylesheet" href="<?= URL ?>">
+	<link rel="stylesheet" href="<?= URL ?>/view/css/style.css">
 	<meta charset="utf-8">
 </head>
 <body>
