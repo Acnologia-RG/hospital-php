@@ -1,4 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `hospital` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `hospital` 
+DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `hospital`;
 
 DROP TABLE IF EXISTS `species`;

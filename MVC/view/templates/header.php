@@ -7,19 +7,19 @@
 </head>
 <body>
 	<nav>
-	<ul>
-		<li><a href="<?= URL ?>home/index">Home</a></li>
-		<li><a href="<?= URL ?>student/index">Students</a></li>
-		<li><a href="<?= URL ?>hospital/index">hospital</a></li>
-	</ul>
+		<ul>
+			<li><a href="<?= URL ?>home/index">Home</a></li>
+			<li><a href="<?= URL ?>student/index">Students</a></li>
+			<li><a href="<?= URL ?>hospital/index">hospital</a></li>
+		</ul>
 	</nav>
 
-<?php if (isset($hospital)) {
-		if ($hospital == true ) { ?>
+<?php if (isset($directory)) {
+		if ($directory == "hospital" ) { ?>
 		<h1>Hospital</h1>
 		<ul>
-			<li><a href="<?= URL ?>hospital/patients.php">Patiënts</a></li>
-			<li><a href="<?= URL ?>hospital/clients.php">Clients</a></li>
-			<li><a href="<?= URL ?>hospital/species.php">Species</a></li>
+			<li><a href="<?= URL ?>hospital/index">Patients</a></li>
+			<li><a href="<?= URL ?>hospital/clients">Clients</a></li>
+			<li><a href="<?= URL ?>hospital/species">Species</a></li>
 		</ul>
 <?php  }} ?>
